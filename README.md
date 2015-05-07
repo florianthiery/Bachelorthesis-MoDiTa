@@ -1,4 +1,4 @@
-# Bachelorthesis (Florian Thiery, 2013)
+# Bachelorthesis (Florian Thiery, 2011)
 
 ## Eignung aktueller Industriekameras für MOdulare DIgitalkamera TAchymeter
  

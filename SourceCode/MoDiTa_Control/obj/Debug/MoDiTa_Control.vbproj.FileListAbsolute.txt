@@ -1,0 +1,165 @@
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\halcondotnet.dll
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\halcondotnet.xml
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\hdevenginedotnet.dll
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+I:\vs_projekte\MoDiTa_Control\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_16 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+F:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+F:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+F:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+F:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bacheorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_17\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_18 - Kopie\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\bin\Debug\halcondotnet.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_23\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+G:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\hdevenginedotnet.dll
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\halcondotnet.xml
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+F:\_bachelorarbeit\_modita_control_edit\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\bin\Debug\halcondotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_28\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\bin\Debug\halcondotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+C:\Users\student\Desktop\MoDiTa_Control_2011_03_31\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.ResolveComReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\bin\Debug\MoDiTa_Control.exe
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\bin\Debug\MoDiTa_Control.pdb
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\bin\Debug\MoDiTa_Control.xml
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\bin\Debug\hdevenginedotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\bin\Debug\halcondotnet.xml
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\WindowsApplication1.MoDiTaGUI.resources
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\WindowsApplication1.StartUp_Project.resources
+C:\Users\student\Desktop\MoDiTa_Control_AV\MoDiTa_Control\obj\Debug\MoDiTa_Control.vbproj.GenerateResource.Cache

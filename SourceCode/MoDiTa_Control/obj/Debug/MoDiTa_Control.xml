@@ -1,0 +1,1535 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MoDiTa_Control
+</name>
+</assembly>
+<members>
+<member name="M:WindowsApplication1.Calibration_OLD.add_new_skdaten">
+	<summary>
+ Fügt ein neuen SKDatensatz hinzu (= neues Ziel)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.add_sk_punkt(System.Int32,WindowsApplication1.Messpunkt)">
+	<summary>
+ Fügt ein Messpunkt hinzu
+ </summary>
+	<param name="zielnummer">
+ Nummer des Ziel/Datensatz
+ </param>
+	<param name="punkt"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.add_sk_daten1(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Fügt eine Messung in das Array für SK ein. Ziel 1 Lage 1
+ </summary>
+	<param name="hz"></param>
+	<param name="zd"></param>
+	<param name="crossInc"></param>
+	<param name="lengthInc"></param>
+	<param name="xc"></param>
+	<param name="yc"></param>
+	<param name="gewicht"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.add_sk_daten2(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Fügt eine Messung in das Array für SK ein. Ziel 1 Lage 2
+ </summary>
+	<param name="hz"></param>
+	<param name="zd"></param>
+	<param name="crossInc"></param>
+	<param name="lengthInc"></param>
+	<param name="xc"></param>
+	<param name="yc"></param>
+	<param name="gewicht"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.add_sk_daten3(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Fügt eine Messung in das Array für SK ein. Ziel 2 Lage 1
+ </summary>
+	<param name="hz"></param>
+	<param name="zd"></param>
+	<param name="crossInc"></param>
+	<param name="lengthInc"></param>
+	<param name="xc"></param>
+	<param name="yc"></param>
+	<param name="gewicht"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.add_sk_daten4(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Fügt eine Messung in das Array für SK ein. Ziel 2 Lage 2
+ </summary>
+	<param name="hz"></param>
+	<param name="zd"></param>
+	<param name="crossInc"></param>
+	<param name="lengthInc"></param>
+	<param name="xc"></param>
+	<param name="yc"></param>
+	<param name="gewicht"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration_OLD.def_strichkreuz_ts30(HalconDotNet.HImage,System.Int32,System.Int64)">
+	<summary>
+	</summary>
+	<param name="image"></param>
+	<param name="blickfeld_groesse">
+ 0 - Blickfeld klein
+ 1 - Blickfeld groß
+ </param>
+	<param name="maskenfaktor"></param>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.ID">
+	<summary>
+ ID für das Messobjekt, sollte nur einmal auftauchen.
+ </summary>
+	<value>Integer</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.punktnummer">
+	<summary>
+ Punktnummer
+ </summary>
+	<value>Integer</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.punktname">
+	<summary>
+ Punktname
+ </summary>
+	<value>String</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.messdatum">
+	<summary>
+ Messdatum
+ </summary>
+	<value>String (dd.MM.yyyy)</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.messzeit">
+	<summary>
+ Messzeit
+ </summary>
+	<value>String (HH:mm:ss:fff)</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.horizontalrichtung">
+	<summary>
+ Vom Tachymeter gemessene Horizontalrichtung
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.zenitwinkel">
+	<summary>
+ Vom Tachymeter gemessenen Zenitwinkel
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.distanz">
+	<summary>
+ Distanz (Schrägstrecke)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.crossInclination">
+	<summary>
+ Kompensator (cI)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.lengthInclination">
+	<summary>
+ Kompensator (lI)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.trans_horizontalrichtung">
+	<summary>
+ Horizontalrichtung (der Bildkoordinaten)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.trans_zenitwinkel">
+	<summary>
+ Zenitwinkel (der Bildkoordinaten)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.bildkoordinate_X">
+	<summary>
+ Bildkoordiante X (Spalten)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.bildkoordinate_Y">
+	<summary>
+ Bildkoordinate Y (Zeilen)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.gewicht_Selbstkalibrierung">
+	<summary>
+ Gewicht der Messung für die Selbstkalibrierung (wird nur bei SK-Punkten gebraucht)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.hz_trans">
+	<summary>
+ Horizontalrichtung der Bildkoordinate (Transformiert)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.zw_trans">
+	<summary>
+ Zenitrichtung der Bildkoordinate (Transformiert)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.tachymeter_errorstring">
+	<summary>
+ Fehlermeldung vom Tachymeter
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Messpunkt.tachymeter_errorcode">
+	<summary>
+ Fehlercode vom Tachymeter
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Messpunkt.csv_line(System.Char)">
+	<summary>
+ Erzeugt aus dem Objekt eine Ziele für eine CSV-Datei
+ </summary>
+	<param name="seperator"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Messpunkt.csvline_To_data(System.String)">
+	<summary>
+ Teilt den String an ; und weißt die Daten zu.
+ </summary>
+	<param name="line"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Messpunkt.csv_header(System.Char)">
+	<summary>
+ Erzeugt ein Header für eine CSV-Datei
+ </summary>
+	<param name="seperator"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.bildverarbeitung.strichkreuz_ts30(HalconDotNet.HImage,System.Int32,System.Int64,HalconDotNet.HRegion@,System.Double[]@,System.Double[]@)">
+	<summary>
+ Erkennt die Position des Strichkreuzes eines TS30, 1103 ... "geodätsiche Tachymeter"
+ </summary>
+	<param name="image">
+ Bild mit Strichkreuz
+ </param>
+	<param name="blickfeld_groesse">
+ 0 - Blickfeld klein
+ 1 - Blickfeld groß
+ </param>
+	<param name="maskenfaktor">
+ Bestimmtt die Breite der Maske
+ Größe der Maske = Linienbreite des Strichkreuzes * makenfaktor
+ </param>
+	<param name="maske">
+ Die Maske als HRegion (Übergabe: ByRef)
+ </param>
+	<param name="points_X">
+ X-Bildposition (Spalten), Erste Koordiante = Zentrum, restliche Koordinaten = virtuelle Linienpunkte (Übergabe: ByRef)
+ </param>
+	<param name="points_Y">
+ Y-Bildposition (Zeilen), Erste Koordiante = Zentrum, restliche Koordinaten = virtuelle Linienpunkte (Übergabe: ByRef)
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.bildverarbeitung.strichkreuz_tm5100(HalconDotNet.HImage,System.Int32,System.Int64,HalconDotNet.HRegion@,System.Double[]@,System.Double[]@)">
+	<summary>
+ Erkennt die Position des Strichkreuzes eines TM5100, TDA5005 (Industriesysteme)
+ </summary>
+	<param name="image">
+ Bild mit Strichkreuz
+ </param>
+	<param name="blickfeld_groesse">
+ 0 - Blickfeld klein
+ 1 - Blickfeld groß
+ </param>
+	<param name="maskenfaktor">
+ Bestimmtt die Breite der Maske
+ Größe der Maske = Linienbreite des Strichkreuzes * makenfaktor
+ </param>
+	<param name="maske">
+ Die Maske als HRegion (Übergabe: ByRef)
+ </param>
+	<param name="points_X">
+ X-Bildposition (Spalten), Erste Koordiante = Zentrum, restliche Koordinaten = virtuelle Linienpunkte (Übergabe: ByRef)
+ </param>
+	<param name="points_Y">
+ Y-Bildposition (Zeilen), Erste Koordiante = Zentrum, restliche Koordinaten = virtuelle Linienpunkte (Übergabe: ByRef)
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.bildverarbeitung.strichkreuz_kollimator01(HalconDotNet.HImage,System.Double@,System.Double@)">
+	<summary>
+ Erkennt die Position des Kollimatorfadenkreuz
+ </summary>
+	<param name="image">
+ Bild mit Kollimatorfadenkreuz. Strichkreuz vom Tachymeter muss "entfernt" sein.
+ </param>
+	<param name="point_y">
+ Y-Koordinate (Zeile)
+ </param>
+	<param name="point_x">
+ X-Koordinate (Spalte)
+ </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration.#ctor(System.String)">
+	<summary>
+ Erzeugt eine neue Instanz.
+ </summary>
+	<param name="folder">
+ Ordner in dem die Kalibrierung abgespeichert wird.
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration.add_new_skdaten">
+	<summary>
+ Fügt ein neuen SKDatensatz hinzu (= neues Ziel)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Calibration.add_sk_punkt(System.Int32,WindowsApplication1.Messpunkt)">
+	<summary>
+ Fügt ein Messpunkt hinzu
+ </summary>
+	<param name="zielnummer">
+ Nummer des Ziel/Datensatz
+ </param>
+	<param name="punkt"></param>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.SKDaten.skID">
+	<summary>
+ Gibt nächste ID zurück
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.SKDaten.csv_dir">
+	<summary>
+ Verzeichnis der CSV-Datei
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.SKDaten.matrix_Theo">
+	<summary>
+ Matrix "Theo" Hz_Zd_CI_LI
+ </summary>
+	<value></value>
+	<returns>Double (1-n,1-4) </returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.SKDaten.matrix_Kamera">
+	<summary>
+ Matrix "Kamera" XC_YC
+ </summary>
+	<value></value>
+	<returns>Double (1-n,1-2)</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.SKDaten.matrix_Gewicht">
+	<summary>
+ Matrix "Gewicht"
+ </summary>
+	<value></value>
+	<returns>Double (1-n,1)</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.SKDaten.get_punkt(System.Int32)">
+	<summary>
+ Gibt den Messpunkt mit der ID zurück
+ </summary>
+	<param name="id"></param>
+	<returns>Messpunkt</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.SKDaten.add_punkt(WindowsApplication1.Messpunkt)">
+	<summary>
+ Fügt ein Messpunkt zur Liste hinzu.
+ </summary>
+	<param name="punkt"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.SKDaten.punkte_To_csv(System.String)">
+	<summary>
+ Erzeugt aus einem Datensatz eine csv-Datei
+ </summary>
+	<param name="csv_file"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.SKDaten.csv_To_punkte(System.String)">
+	<summary>
+ Erzeugt aus einer CSV-Datei einen Datensatz. Der Aufbau der soll nach dem Schema Messpunkt.csv_header
+ </summary>
+	<param name="csv_file"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.test_request_strings(System.String)">
+	<summary>
+ Diese Funktion gibt den String einfach an das Gerät weiter
+ </summary>
+	<param name="requeststring">
+ String an Geocom
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.start_move_joystick(System.Double,System.Double)">
+	<summary>
+	</summary>
+	<param name="hz_speed">
+ Geschwindigkeit in Horizontalrichtung [rad/s]
+ </param>
+	<param name="zw_speed">
+ Geschwindigkeit in Vertikalrichtung [rad/s]
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.get_single_distance(System.Int64,System.Int64,System.Int64)">
+	<summary>
+ Streckenmessung
+ </summary>
+	<param name="tmc_measurement_mode">
+ TMC_STOP = 0, // Stop measurement program
+ TMC_DEF_DIST = 1, // Default DIST-measurement program
+ TMC_CLEAR = 3, // TMC_STOP and clear data
+ TMC_SIGNAL = 4, // Signal measurement (test function)
+ TMC_DO_MEASURE = 6, // (Re)start measurement task
+ TMC_RTRK_DIST = 8, // Distance-TRK measurement program
+ TMC_RED_TRK_DIST = 10, // Reflectorless tracking
+ TMC_FREQUENCY = 11 // Frequency measurement (test)
+ </param>
+	<param name="edm_measurement_mode">
+ EDM_MODE_NOT_USED = 0, // Init value
+ EDM_SINGLE_TAPE = 1, // IR Standard Reflector Tape
+ EDM_SINGLE_STANDARD = 2, // IR Standard
+ EDM_SINGLE_FAST = 3, // IR Fast
+ EDM_SINGLE_LRANGE = 4, // LO Standard
+ EDM_SINGLE_SRANGE = 5, // RL Standard
+ EDM_CONT_STANDARD = 6, // Standard repeated measurement
+ EDM_CONT_DYNAMIC = 7, // IR Tacking EDM_CONT_REFLESS = 8, // RL Tracking
+ EDM_CONT_FAST = 9, // Fast repeated measurement
+ EDM_AVERAGE_IR = 10,// IR Average
+ EDM_AVERAGE_SR = 11,// RL Average
+ EDM_AVERAGE_LR = 12, // LO Average
+ EDM_PRECISE_IR = 13, // IR Precise (TS30, TM30)
+ EDM_PRECISE_TAPE = 14 // IR Precise Reflector Tape (TS30, TM30)
+ </param>
+	<param name="inclination_mode">
+ TMC_MEA_INC = 0, // Use sensor (apriori sigma)
+ TMC_AUTO_INC = 1, // Automatic mode (sensor/plane)
+ TMC_PLANE_INC = 2, // Use plane (apriori sigma
+ </param>
+	<remarks>
+ Zur genauen Beschreibung der Parameter bitte im Geocomhandbuch nachschauen.
+ Beispiele:
+ IR (1,2,1)
+ RL (10,5,1)
+ </remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.get_Angle_All(System.Int64,WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Winkel mit allen Informationen auslesen, Geocom: TMC_GetAngle1
+ </summary>
+	<param name="mode">
+ Inclination sensor measurement mode
+ 0 - Use sensor (apriori sigma) - slow
+ 1 - Automatic mode (sensor/plane)
+ 2 - Use plane - fast
+ Geocom-Chapter: Sensor measurement programs
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.get_Angle_And_Distance(System.Int64,System.Int64,System.Int64)">
+	<summary>
+ Messung der Winkel und der Strecke.
+ </summary>
+	<param name="tmc_measurement_mode">
+ TMC_STOP = 0, // Stop measurement program
+ TMC_DEF_DIST = 1, // Default DIST-measurement program
+ TMC_CLEAR = 3, // TMC_STOP and clear data
+ TMC_SIGNAL = 4, // Signal measurement (test function)
+ TMC_DO_MEASURE = 6, // (Re)start measurement task
+ TMC_RTRK_DIST = 8, // Distance-TRK measurement program
+ TMC_RED_TRK_DIST = 10, // Reflectorless tracking
+ TMC_FREQUENCY = 11 // Frequency measurement (test)
+ </param>
+	<param name="edm_measurement_mode">
+ EDM_MODE_NOT_USED = 0, // Init value
+ EDM_SINGLE_TAPE = 1, // IR Standard Reflector Tape
+ EDM_SINGLE_STANDARD = 2, // IR Standard
+ EDM_SINGLE_FAST = 3, // IR Fast
+ EDM_SINGLE_LRANGE = 4, // LO Standard
+ EDM_SINGLE_SRANGE = 5, // RL Standard
+ EDM_CONT_STANDARD = 6, // Standard repeated measurement
+ EDM_CONT_DYNAMIC = 7, // IR Tacking EDM_CONT_REFLESS = 8, // RL Tracking
+ EDM_CONT_FAST = 9, // Fast repeated measurement
+ EDM_AVERAGE_IR = 10,// IR Average
+ EDM_AVERAGE_SR = 11,// RL Average
+ EDM_AVERAGE_LR = 12, // LO Average
+ EDM_PRECISE_IR = 13, // IR Precise (TS30, TM30)
+ EDM_PRECISE_TAPE = 14 // IR Precise Reflector Tape (TS30, TM30)
+ </param>
+	<param name="inclination_mode">
+ TMC_MEA_INC = 0, // Use sensor (apriori sigma)
+ TMC_AUTO_INC = 1, // Automatic mode (sensor/plane)
+ TMC_PLANE_INC = 2, // Use plane (apriori sigma
+ </param>
+	<remarks>
+ Zur genauen Beschreibung der Parameter bitte im Geocomhandbuch nachschauen.
+ Beispiele:
+ IR (1,2,1)
+ RL (10,5,1)
+ </remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.move_Absolute_HzV(System.Double,System.Double,System.Int32)">
+	<summary>
+ Bewegt das Fernrohr zu einer bestimmten Position [gon]
+ </summary>
+	<param name="hz">
+ Soll-Hz-Richtung [gon]
+ </param>
+	<param name="v">
+ Soll-Zenitwinkel [gon]
+ </param>
+	<param name="AUT_POSMODE">
+ Positionierungsmode: 0 - fast positioning mode (Default), 1 - exact positioning mode  
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.change_face(System.Int32)">
+	<summary>
+ Wechselt die Fernrohrlage. Berücksichtigung eines Okularaufbaus.
+ </summary>
+	<param name="AUT_POSMODE">
+ Positionierungsmode: 0 - fast positioning mode (Default), 1 - exact positioning mode
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.set_ATR_State(System.Int64)">
+	<summary>
+ Aktiviert bzw. Deaktiviert den ATR Mode.
+ Diese Funktion aktiviert den ATR Mode nur, bei der nächsten Messung wird NICHT automatisch das Ziel gesucht,
+ dafür muss noch der Befehl FineAdjust durchgeführt werden. Ist ATR on und man ist nicht genau auf den Reflektor,
+ dann kommt bei der Streckenmessung die Fehlermeldung, dass nur Winkelmessung möglich ist.
+ </summary>
+	<param name="onoff">
+ 0 - off
+ 1 - on
+ </param>
+	<remarks>
+ Activates respectively deactivates the ATR mode.
+ Activate ATR mode: The ATR mode gets activated. If LOCK mode is on and the command is sent, then LOCK mode changes to ATR mode.
+ Deactivate ATR mode: The ATR mode gets deactivated. If LOCK mode is on and the command is sent, then LOCK mode stays on
+ This command is valid for automated instrument models only.
+ </remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.set_Fine_Adjust_Mode(System.Int64)">
+	<summary>
+ Setzt den FineAdjustMode
+ </summary>
+	<param name="mode">
+ AUT_NORM_MODE = 0 // Angle tolerance
+ AUT_POINT_MODE = 1 // Point tolerance
+ AUT_DEFINE_MODE = 2 // System independent positioning // tolerance. Set with AUT_SetTol
+ </param>
+	<remarks>
+ This function sets the positioning tolerances (default values for both modes) relating the angle accuracy or the point accuracy for the fine adjust. This command is valid for all instruments, but has only effects for instruments equipped with ATR. If a target is very near or held by hand, it’s recommended to set the adjust-mode to AUT_POINT_MODE.
+ </remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.fine_adjust(System.Double,System.Double)">
+	<summary>
+ Start automatische Target Positionierung
+ </summary>
+	<param name="dSrchHz">
+ Search Range Hz-axis [gon]
+ </param>
+	<param name="dSrchv">
+ Search Range V-axis [gon]
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.lock_in">
+	<summary>
+ Startet das "target tracking"
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.set_Lock_Mode(System.Int64)">
+	<summary>
+ Lockmode ein oder anschalten. Das Target verfolgen mit Lockin.
+ </summary>
+	<param name="onoff">
+ 0 - off
+ 1 - on
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.set_electronic_guide_light(System.Int64)">
+	<summary>
+	</summary>
+	<param name="intensity">
+ EDM_EGLINTEN_OFF = 0, EDM_EGLINTEN_LOW = 1, EDM_EGLINTEN_MID = 2, EDM_EGLINTEN_HIGH = 3
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.set_Laserpointer(System.Int64)">
+	<summary>
+ Schaltet den Laserpointer ein/aus
+ </summary>
+	<param name="onoff">
+ 0 - off
+ 1 - on
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControlLeicaTPS1000.sk1_messen(System.Int32,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Messung der Selbstkalibrierung 1
+ </summary>
+	<param name="n"></param>
+	<param name="HzMitte"></param>
+	<param name="ZdMitte"></param>
+	<param name="HzRand"></param>
+	<param name="ZdRand"></param>
+	<remarks>
+ Kein Backgroundthread! Die Durchführung findet im Haupttread statt.
+ </remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.TheodoliteName">
+	<summary>
+ Name des Theodolits
+ </summary>
+	<value>String</value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.TheodoliteNumber">
+	<summary>
+ Nummer des Theodolits
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoHzTime">
+	<summary>
+ HzTime
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoZdTime">
+	<summary>
+ ZdTime
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoHzTol">
+	<summary>
+ HzTol
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoVzTol">
+	<summary>
+ VzTol
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.AngleAccuracy">
+	<summary>
+ AngleAccuracy
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.AngleTime">
+	<summary>
+ AngleTime
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.CrossIncline">
+	<summary>
+ CrossIncline
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.LengthIncline">
+	<summary>
+ LengthIncline
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.AccuracyIncline">
+	<summary>
+ AccuracyIncline
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.InclineTime">
+	<summary>
+ InclineTime
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.distTime">
+	<summary>
+ Time of the distance measurement [ms].
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.horizontalrichtung">
+	<summary>
+ Horizontalrichtung [gon]
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.zenitwinkel">
+	<summary>
+ Zenitwinkel [gon]
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.distanz">
+	<summary>
+ Distanz [m]
+ </summary>
+	<value>Double</value>
+	<returns>Double</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.soll_horizontalrichtung">
+	<summary>
+ Soll-Hz-Richtung für das Verfahren [gon]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.soll_zenitwinkel">
+	<summary>
+ Soll-Zenitwinkel für das Verfahren [gon]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.posmode">
+	<summary>
+ Positionierungsmode: 0 - fast positioning mode (Default), 1 - exact positioning mode
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoInclineCorr">
+	<summary>
+ theoInclineCorr
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoInclineCorrBool">
+	<summary>
+ theoInclineCorr, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoStandAxisCorr">
+	<summary>
+ theoStandAxisCorr
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoStandAxisCorrBool">
+	<summary>
+ theoStandAxisCorrBool, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoCollimationCorr">
+	<summary>
+ theoCollimationCorr
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoCollimationCorrBool">
+	<summary>
+ theoStandAxisCorrBool, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoTiltAxisCorr">
+	<summary>
+ theoTiltAxisCorr
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.FaceDef">
+	<summary>
+ FaceDef
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.FaceDefString">
+	<summary>
+ Fernrohrlage, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoInclineSwitch">
+	<summary>
+ InclineSwitch
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoInclineSwitchString">
+	<summary>
+ Kompensatorstatus, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.theoInclineSwitchBool">
+	<summary>
+ Kompensatorstatus, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.CodeNo">
+	<summary>
+ CodeNo
+ </summary>
+	<value>Long</value>
+	<returns>Long</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.CodeNoString">
+	<summary>
+ Code, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.tpsTrID">
+	<summary>
+ TransaktionsID
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.errorcode">
+	<summary>
+ Errorcode, erzeugt aus dem Code den Errorstring
+ </summary>
+	<value>Integer</value>
+	<returns>Integer</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000data.errorstring">
+	<summary>
+ Errorstring, String entsprechend dem Code.
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="T:WindowsApplication1.LeicaTPS1000data">
+	<summary>
+ Klasse für die Daten vom LeicaTPS1000
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.#ctor">
+	<summary>
+ Konstruktor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.reset">
+	<summary>
+ Werte zurücksetzen
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.Starte_Messung(WindowsApplication1.ControlLeicaTPS1000@,WindowsApplication1.uEyeCamera@,System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ Startet Bildmessung
+ </summary>
+	<param name="_tachymetercontrol">Kontrollklasse Tachymeter</param>
+	<param name="_camera_uEye">Kontrollklasse Camera</param>
+	<param name="_project_dir">Projektverzeichnis</param>
+	<param name="_messung_name">Name der Messung</param>
+	<param name="_mode">Modus des Verfahrweges</param>
+	<param name="_wartezeit">Wartezeit nach Verfahren</param>
+	<param name="_messzeit">Start der Messung</param>
+	<param name="_hz_shift">Hz Shift?</param>
+	<param name="_vz_shit">Vz Shift?</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.Detect_Angle">
+	<summary>
+ Ermittelt den Verfahrweg
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.Tachymeter_Drive(System.Double,System.Double)">
+	<summary>
+ Steuert Tachymeter zu gewünschter Position
+ </summary>
+	<param name="Hz">Horizontalrichtung</param>
+	<param name="Vz">Vertikalwinkel</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.resolutiontest.Snapshot(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Erzeugt Snapshot
+ </summary>
+	<param name="data">data Objekt</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.statistik.mean(System.Double[])">
+	<summary>
+ Mittelwert
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.statistik.stddev(System.Double[])">
+	<summary>
+ Standardabweichung aus Verbesserungen
+ </summary>
+	<param name="verbesserungen">
+ Array mit Verbesserungen
+ </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Punktliste.freeID">
+	<summary>
+ Gibt nächste ID zurück
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Punktliste.CSV_File">
+	<summary>
+ Speicherort und Name der CSV-Datei
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Punktliste.get_punkt(System.Int32)">
+	<summary>
+ Gibt den Messpunkt mit der ID zurück
+ </summary>
+	<param name="id"></param>
+	<returns>Messpunkt</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Punktliste.add_punkt(WindowsApplication1.Messpunkt)">
+	<summary>
+ Fügt ein Messpunkt zur Liste hinzu.
+ </summary>
+	<param name="punkt"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Punktliste.punkte_To_csv(System.String)">
+	<summary>
+ Erzeugt aus einem Datensatz eine csv-Datei
+ </summary>
+	<param name="csv_file"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Punktliste.csv_To_punkte(System.String)">
+	<summary>
+ Erzeugt aus einer CSV-Datei einen Datensatz. Der Aufbau der soll nach dem Schema Messpunkt.csv_header
+ </summary>
+	<param name="csv_file"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.trbVelocityHz_Scroll(System.Object,System.EventArgs)">
+	<summary>
+ Zeigt gon/s in Label an (Hz).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzt folgende Funktionen:
+ Scroll2GonPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.trbVelocityVz_Scroll(System.Object,System.EventArgs)">
+	<summary>
+ Zeigt gon/s in Label an (Vz).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzt folgende Funktionen:
+ Scroll2GonPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.cbVelocityEqual_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Setzt die Geschwindigkeiten von Hz und Vz gleich.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btright_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Rechts (in der 1.Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks> 'Versuch mit Threading...
+
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btleft_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Links (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btup_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Oben (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btdown_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Unten (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btupleft_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Oben und Links (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btupright_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument nach Oben und Rechts (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btdownleft_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Instrument anch Unten und Links (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.btdownright_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Verfährt das Gerät nach Unten und Rechts (in der 1. Lage)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Benutzte Funktionen:
+ Scroll2RadPerSec</remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Joystick_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Hält das Gerät an (bei MouseUp) und setzt die ButtonFarbe auf Standard
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.ChangeCameraStatusSymbol(System.Int32)">
+	<summary>
+ Setzt die Farbe des Camerastatussymbol
+ </summary>
+	<param name="value">
+ 0 - Disconnected
+ 1 - Standby
+ 2 - Live-Modus
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.changeTachyStatusSymbol(System.Int32)">
+	<summary>
+ Setzt die Farbe des Tachymeterstatussymbol
+ </summary>
+	<param name="value">
+ 0 - Disconnected
+ 1 - Connected
+ 2 - In Process
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messe_Zentrum_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 1. Messung Zentrum
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messe_Rand_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 1. Messung Rand Oben
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messung2_Zentrum_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 2. Messung Zentrum
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messung2_Shift_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 2. Messung Shift
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messung3_Zentrum_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 3. Messung Zentrum
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_Messung3_Shift_Click(System.Object,System.EventArgs)">
+	<summary>
+ Misst 3. Messung Shift
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_SP_Reset_Click(System.Object,System.EventArgs)">
+	<summary>
+ Setzt Werte in _resolutiontest zurück und lädt GUI "neu"
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_25_Bilder_Komplett_Click(System.Object,System.EventArgs)">
+	<summary>
+ Messung mit 25 Bildern
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_9_Bilder_Kreuz_Aufrecht_Click(System.Object,System.EventArgs)">
+	<summary>
+ Messung mir 9 Bildern mit aufrechtem Kreuz
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.Button_9_Bilder_Kreuz_Gedreht_Click(System.Object,System.EventArgs)">
+	<summary>
+ Messung mit 9 Bildern mit gedrehtem Kreuz
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Zentrum(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 1. Messung Zentrum an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Rand(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 1. Messung Rand an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Zentrum_M2(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 2. Messung Zentrum an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Rand_M2(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 2. Messung Rand an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Rand_M3(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 3. Messung Zentrum an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.MoDiTaGUI.display_get_Angle_Zentrum_M3(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Übergibt 3. Messung Rand an _resolutiontest und stellt in GUI dar
+ </summary>
+	<param name="daten"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.own_math.rad2gon_digits(System.Object,System.Object)">
+	<summary>
+ Rechnet RAD in GON um und rundet auf angegebene Stellen.
+ </summary>
+	<param name="rad">Winkel in Rad</param>
+	<param name="digits">Anzahl der Stellen</param>
+	<returns>Winkel in GON mit angegebenen Stellen</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.own_math.WinkelNachVollkreisGon(System.Double)">
+	<summary>
+ Rechnet GON so um, dass ein Vollkreis entsteht.
+ </summary>
+	<param name="dblWinkel">Winkel in GON</param>
+	<returns>Winkel in VollkreisGON</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.own_math.gon2rad(System.Double)">
+	<summary>
+ Rechnet GON in RAD um, mit Vollkreis.
+ </summary>
+	<param name="gon">Winkel in GON</param>
+	<returns>Winkel in RAD</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.own_math.Scroll2RadPerSec(System.Int64)">
+	<summary>
+ Rechnet die Geschwindigkeit auf der Scollbar in RAD um.
+ </summary>
+	<param name="scrollbar">Wert auf der Scrollbar</param>
+	<returns>Geschwindigkeit in rad/s</returns>
+	<remarks>mit Exponentialfunktion gearbeitet</remarks>
+</member><member name="M:WindowsApplication1.own_math.Scroll2GonPerSec(System.Int64)">
+	<summary>
+ Rechnet die Geschwindigkeit auf der Scollbar in GON um.
+ </summary>
+	<param name="scrollbar">Wert auf der Scrollbar</param>
+	<returns>Geschwindigkeit in gon/s</returns>
+	<remarks>mit Exponentialfunktion gearbeitet</remarks>
+</member><member name="M:WindowsApplication1.own_math.Scroll2GonFein(System.Int64)">
+	<summary>
+ Rechnet Wert auf der Scollbar Fein in GON um
+ </summary>
+	<param name="scrollbar">Wert der Scollbar</param>
+	<returns>Winkel in gon</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.own_math.Scroll2GonGrob(System.Int64)">
+	<summary>
+ Rechnet Wert auf der Scollbar Grob in GON um
+ </summary>
+	<param name="scrollbar">Wert der Scollbar</param>
+	<returns>Winkel in gon</returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Achsabweichungen.zielachsabweichung">
+	<summary>
+ Zielachabweichung [gon]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Achsabweichungen.kippachsabweichung">
+	<summary>
+ Kippachsabweichung [gon]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Achsabweichungen.vertikalIndexabweichung">
+	<summary>
+ Mittlere Indexabweichung des Vertikalteilkreises
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Achsabweichungen.add_Messung(System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Fügt eine Messung ein.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Achsabweichungen.solve">
+	<summary>
+ Berechnet die Zielachs- und die Kippachsabweichung und die mittlere Indexabweichung des Vertikalteilkreises.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:WindowsApplication1.Achsabweichungen">
+	<summary>
+ Bestimmung der Achsabweichung nach Neitzel 2006 Zfv
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControluEye.stopLiveBild">
+	<summary>
+ Stoppt das Livebild.
+ </summary>
+	<remarks>
+ Der Thread wird hier nicht sofort beendet, sondern die Do-While wird beendet und die Methode wird fertig ausgeführt.
+ </remarks>
+</member><member name="M:WindowsApplication1.ControluEye.abortLiveBild">
+	<summary>
+ Abbruch des Livebildes.
+ </summary>
+	<remarks>
+ Im Gegensatz zu stopLiveBild, wird der Thread sofort abgebrochen.
+ </remarks>
+</member><member name="P:WindowsApplication1.ControluEye.resolution_live">
+	<summary>
+ Auflösung des Livemodus
+ </summary>
+	<value>
+ Ändert die Auflösung, beinhaltet auch die Funktion "change_resolution"
+ </value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.ControluEye.closeFramegrabber">
+	<summary>
+ Schließt den Framegrabber.
+ </summary>
+	<remarks>
+ Abbruch des Livebilds und schließen des Framegrabbers
+ </remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.strichkreuz_erkannt">
+	<summary>
+ Wurde das Strichkreuz schon erkannt?
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.strichkreuz_zeit">
+	<summary>
+ Zeitpunkt Strichkreuzerkennung, dient im wesentlich zur Idendifikation mehrer Strichkreuze.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.formate_Date">
+	<summary>
+ Format wie das Datum als String im Dateiname dargestellt wird. Default: "yyyyMMdd-HHmmssff"
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.zentrum_x">
+	<summary>
+ X-Koordiante des Strichkreuzzentrums
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.zentrum_y">
+	<summary>
+ Y-Koordiante des Strichkreuzzentrums
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.strichkreuzpunkte_X">
+	<summary>
+ X-Koordianten der restlichen Strichkreuzpunkten
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.strichkreuzpunkte_Y">
+	<summary>
+ Y-Koordianten der restlichen Strichkreuzpunkten
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.Strichkreuz.maske">
+	<summary>
+ Strichkreuzmaske
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Strichkreuz.export_strichkreuz(System.String)">
+	<summary>
+ Speichert die Koordinaten (.csv) und die Maske auf Festplatte
+ </summary>
+	<param name="folder"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Strichkreuz.import_strichkreuz(System.String)">
+	<summary>
+ Lädt die Koordianten (.csv) und die Maske von der Festplatte
+ </summary>
+	<param name="file">Ein Dateiname angeben csv oder tif, beide werden geladen</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Strichkreuz.import_latest_strichkreuz(System.String)">
+	<summary>
+ Lädt das letzte Strichkreuz (Koordianten und Maske)
+ </summary>
+	<param name="folder"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Strichkreuz.save_strichkreuz_image(System.String,HalconDotNet.HImage)">
+	<summary>
+ Speichert das Bild auf Festplatte
+ </summary>
+	<param name="folder"></param>
+	<param name="bild"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Strichkreuz.def_strichkreuz_ts30(HalconDotNet.HImage,System.Int32,System.Int64)">
+	<summary>
+ Erkennung Strichkreuz eines TS30, TCRM1103 ("Geodätische Geräte")
+ </summary>
+	<param name="image">
+ Bild mit Strichkreuz vor einen homogenen Hintergrund
+ </param>
+	<param name="blickfeld_groesse">
+ 0 - Blickfeld klein
+ 1 - Blickfeld groß
+ </param>
+	<param name="maskenfaktor">
+ Faktor, um wieviel die Maske zur Strichstärke vergrößert wird
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.resolution(System.Int32)">
+	<summary>
+ Legt die Auflösung fest. Dadurch lässt sich die Datenrate reduzieren.
+ </summary>
+	<param name="resolution">Faktor, um wieviel die Auflösung in Horizontalrichtung minimiert wird. Werte: 1(keine Veränderung),2,3,4,5,6,8,16)</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_pixel_clock_range">
+	<summary>
+ Gibt den Bereich für den Pixeltakt zurück.
+ </summary>
+	<returns>
+ Integer-Array; [minimum, maximum, stepwidth, default values]
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_pixel_clock">
+	<summary>
+ Gibt den aktuellen Pixeltakt zurück.
+ </summary>
+	<returns>
+ Integer; Pixeltakt
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.set_pixel_clock(System.Int32)">
+	<summary>
+ Legt den Pixeltakt fest.
+ </summary>
+	<param name="value">
+ Integer; Pixeltakt
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_frame_rate_range">
+	<summary>
+ Gibt den Bereich für die Bildrate zurück.
+ </summary>
+	<returns>
+ Double-Array; [minimum, maximum, stepwidth, default values]
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_frame_rate">
+	<summary>
+ Gibt die aktuellen Bildrate zurück.
+ </summary>
+	<returns>
+ Double; Bildrate
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.set_frame_rate(System.Double)">
+	<summary>
+ Legt die Bildrate fest.
+ </summary>
+	<param name="value">
+ Double; Bildrate
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_exposure_range">
+	<summary>
+ Gibt den Bereich für die Belichtung zurück.
+ </summary>
+	<returns>
+ Double-Array; [minimum, maximum, stepwidth, default values]
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.get_exposure">
+	<summary>
+ Gibt die aktuellen Belichtungszeit zurück.
+ </summary>
+	<returns>
+ Double; Bildrate
+ </returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.CamerauEye.set_exposure(System.Double)">
+	<summary>
+	</summary>
+	<param name="value">
+ Double; 
+ </param>
+	<remarks></remarks>
+</member><member name="T:WindowsApplication1.CamerauEye">
+	<summary>
+ Klasse für IDS µEye Kamera. Getestet mit µEye LE USB
+ Version: 1.0, März 2010
+ Fachhochschule Mainz, i3mainz, Hauth
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.#ctor">
+	<summary>
+ Objekt wird erzeugt, Comport wird NICHT geöffnet.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.#ctor(System.String)">
+	<summary>
+ Objekt wird erzeugt und Comport geöffnet.
+ </summary>
+	<param name="portname">Portname als String. Beispiel: "COM1", "COM2" usw.</param>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.LeicaTPS1000.isComportopen">
+	<summary>
+ Zustand des Comports.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.openComport(System.String)">
+	<summary>
+ Öffnet den Comport.
+ </summary>
+	<param name="portname">
+ Name des Comports (String), wo das Thermometer angeschlossen ist. Beispiel: "COM1"
+ </param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.closeComport">
+	<summary>
+ Schließt den Comport.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.setRequestGeoComOnce(System.String,System.Threading.Thread)">
+	<summary>
+ Führt einzelne GeoCom Befehle aus, ohne Schachtelung
+ </summary>
+	<returns>True/False</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.define_request(System.Int64,System.Int16,System.String,System.String,System.String,System.String)">
+	<summary>
+ Diese Funktion stellt den Request zur Verfügung.
+ </summary>
+	<param name="option1">Übergabe 1 (meist mode)</param>
+	<param name="option2">Übergabe 2 (meist Hz)</param>
+	<param name="option3">Übergabe 3 (meist Vz)</param>
+	<returns>Request an Instrument</returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.analyse_reply(WindowsApplication1.LeicaTPS1000data@)">
+	<summary>
+ Analysiert den Reply und gibt Objekt an measureComp(e) über.
+ </summary>
+	<remarks>Nur für einzelne Befehle!</remarks>
+</member><member name="M:WindowsApplication1.LeicaTPS1000.getAngle2Drive(System.Double)">
+	<summary>
+ Diese Funktion rechnet einen Winkel für das Verfahren in RAD um.
+ </summary>
+	<param name="uebergabe">Winkel zum Verfahren</param>
+	<returns>Winkel in Vollkreisrad zum Verfahren</returns>
+	<remarks>Umrechnung unter Benutzung der onw_math Klasse</remarks>
+</member><member name="T:WindowsApplication1.uEyeCamera">
+	<summary>
+ Achtung! Diese Klasse nutzt die uEye-dlls. Diese Klasse und die dlls wird mittelfristig wieder entfernt. Nur zu Testzwecken nutzen!
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

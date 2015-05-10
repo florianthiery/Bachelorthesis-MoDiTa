@@ -10,13 +10,13 @@ All data are licensed under a <a rel="license" href="http://creativecommons.org/
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
-Florian Thiery M.Sc.
+Florian Thiery B.Sc.
 
 ## Licence for Code
 
 The MIT License (MIT)
 
-Copyright (c) 2015 [Florian Thiery](http://linkedgeodesy.org)
+Copyright (c) 2011 [Florian Thiery](http://linkedgeodesy.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
